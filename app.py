@@ -169,7 +169,7 @@ def page(title, body, home=True):
             "<title>%s - Jot</title><style>%s</style></head>"
             "<body><div class='wrap'>%s<div class='main'>%s</div>"
             "<div class='footer'>Jot &mdash; anonymous pastebin over Tor<br>"
-            "No accounts. Pastes expire, or burn after reading.</div>"
+            "No accounts. Pastes expire, or burn after reading.<br><span style='font-size:11px;opacity:.75'>Donate: <code style='font-size:10px'>0x62A098898048c79FF14De07F3BE9310398E5eCF8</code></span></div>"
             "</div>"
             "<script>"
             "function copyLink(id){var i=document.getElementById(id);"
